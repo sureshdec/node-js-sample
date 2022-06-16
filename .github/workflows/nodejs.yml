@@ -33,6 +33,8 @@ jobs:
         with:
           name:  node_modules
           path: node_modules/
-      - run: ls -lrt node_modules
+      - run: |
+         ls -lrt
+         ls -lrt node_modules
 
 
