@@ -19,7 +19,7 @@ jobs:
       - run: npm i
       - run: ls -lrt node_modules
       - name: 'Tar files'
-        run: tar -cvf node_modules.tar node_modules/
+        run: tar -cvf node_modules.tar node_modules
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2
         with:
